@@ -10,7 +10,7 @@ const Login = () => {
     email: "",
     password: "",
   });
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
   const getData = (e) => {
     const { value, name } = e.target;
 
