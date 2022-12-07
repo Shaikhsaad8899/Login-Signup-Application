@@ -11,6 +11,21 @@ export const Home = () => {
     date: "",
     password: "",
   });
+
+
+
+  // --------------usestate--------------
+// const [dyta,setDyta]=useState(false);
+// const url= "http://localhost:4040/NewUser";
+// const payload={
+// namee,
+// email,
+// date,
+// password,
+// };
+
+
+  // console.log(inpval);
   const [data,setData]=useState([]);
   const getData = (e) => {
     const { value, name } = e.target;

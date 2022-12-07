@@ -44,7 +44,8 @@ const Login = () => {
           alert("Invalid Details");
         } else {
           console.log("User Login Successful");
-          localStorage.setItem("user_login", JSON.stringify(getuserArr));
+          console.log(userlogin);
+          localStorage.setItem("user_login", JSON.stringify(userlogin));
           history("/Details");
         }
       }
